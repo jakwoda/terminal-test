@@ -1,9 +1,14 @@
+html,
 body {
-  margin: 0;
   width: 100%;
   height: 100%;
-  background-color: blanchedalmond;
+  color: white;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 200%;
+  background-color: aquamarine;
 }
+
 article {
   min-height: 100%;
   display: grid;
@@ -12,17 +17,21 @@ article {
 }
 
 header {
-  background-color: lightskyblue;
-  grid-row: 1;
+  background: rgb(238, 164, 203);
+  padding: 1rem;
 }
 
 main {
-  background-color: lightcyan;
-  grid-row: 2;
+  background: rgb(181, 245, 226);
+  color: #444;
+  padding: 1rem;
+  text-align: center;
+}
+.text {
+  color: blue;
 }
 
 footer {
-  background-color: lightblue;
-  position: absolute;
-  grid-row: 3;
+  background: rgb(241, 222, 112);
+  padding: 2rem;
 }
