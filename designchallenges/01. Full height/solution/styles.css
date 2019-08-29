@@ -1,15 +1,28 @@
 body {
-    margin: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: blanchedalmond;
+}
+article {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
 }
 
 header {
-    background-color: lightskyblue;
+  background-color: lightskyblue;
+  grid-row: 1;
 }
 
 main {
-    background-color: lightcyan;
+  background-color: lightcyan;
+  grid-row: 2;
 }
 
 footer {
-    background-color: lightblue;
+  background-color: lightblue;
+  position: absolute;
+  grid-row: 3;
 }
