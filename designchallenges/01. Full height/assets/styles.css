@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: lightskyblue;
+}
+
+main {
+    background-color: lightcyan;
+}
+
+footer {
+    background-color: lightblue;
+}
