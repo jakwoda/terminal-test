@@ -23,7 +23,7 @@ function type(counter) {
       step++;
       counter++;
       //console.log(counter);
-      //console.log(rando);
+      console.log(rando);
       console.log(step);
     }, rando);
   } else {
